@@ -25,6 +25,8 @@ int main(){
 			break;
 		else if((max2/2 >= 0) && (max2 % 2 == 0))
 			sum = sum + max2;
+			
 	}
 	
+	printf("For the terms whose values do not exceed 4 million, the sum of the even numbers is: %d\n",sum);
 }
